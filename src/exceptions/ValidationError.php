@@ -76,7 +76,7 @@ class ValidationError extends NotifyException
      *
      * @param array|null $errors A dictionary of errors to construct the exception around
      */
-    public function __construct(array $errors = null)
+    public function __construct(?array $errors = null)
     {
         parent::__construct();
         $this->_errors = $errors ?? [];
