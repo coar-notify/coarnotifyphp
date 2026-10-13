@@ -69,7 +69,7 @@ namespace coarnotify\exceptions;
  */
 class ValidationError extends NotifyException
 {
-    private $_errors;
+    private array|null $_errors;
 
     /**
      * Constructor for ValidationError
