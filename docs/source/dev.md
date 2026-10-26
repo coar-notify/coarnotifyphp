@@ -57,4 +57,4 @@ phpunit src/tests/integration
 
 2. Make the release in github, with the version number as the tag
 
-TODO
+3. Log into packagist.org and Update coarnotify from the github branch
