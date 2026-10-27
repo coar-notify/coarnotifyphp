@@ -23,7 +23,7 @@
 		"ext-json": "*",
 		"ramsey/uuid": "^4.2",
 		"ext-curl": "*",
-		"doctrine/annotations": "^1.13",
+		"doctrine/annotations": "^2.0",
 		"guzzlehttp/guzzle": "^7.5"
 	},
 	"autoload": {
