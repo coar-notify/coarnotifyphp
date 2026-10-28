@@ -6,8 +6,8 @@ use coarnotify\http\HttpResponse;
 
 class MockHttpResponse implements HttpResponse
 {
-    private $statusCode;
-    private $location;
+    private int $statusCode;
+    private string $location;
 
     public function __construct(int $statusCode = 200, ?string $location = null)
     {
