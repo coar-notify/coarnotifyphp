@@ -7,8 +7,8 @@ use coarnotify\http\HttpResponse;
 
 class MockHttpLayer implements HttpLayer
 {
-    private $statusCode;
-    private $location;
+    private int $statusCode;
+    private string $location;
 
     public function __construct(int $statusCode = 200, ?string $location = null)
     {
